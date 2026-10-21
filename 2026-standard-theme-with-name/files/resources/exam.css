@@ -170,7 +170,11 @@ Copyright 2011-25 Newcastle University
 
         & header {
             display: grid;
-            grid-template: "brand close" "name close" max-content / 1fr min-content;
+            grid-template:
+                "brand close"
+                "name close"
+                "studentname close"
+                max-content / 1fr min-content;
             gap: var(--spacing);
             padding: 0;
             grid-auto-flow: column;
@@ -184,6 +188,12 @@ Copyright 2011-25 Newcastle University
                 max-height: 5em;
                 overflow-y: auto;
                 padding: var(--half-space);
+                margin: 0;
+            }
+
+            & .exam-studentname {
+                display: block;
+                padding-left: var(--half-space);
                 margin: 0;
             }
 

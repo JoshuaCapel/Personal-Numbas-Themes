@@ -6,6 +6,8 @@
 
         <h1 class="exam-name" data-bind="text: exam.settings.name, typeset: exam.settings.name"></h1>
 
+        <p class="exam-studentname" data-bind="text: exam.student_name, visible: exam.student_name"></p>
+
         <button type="button" class="navbar-toggle btn" aria-controls="navMenu">
             {% include "close.svg" %}
         </button>
