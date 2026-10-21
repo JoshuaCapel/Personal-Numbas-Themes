@@ -1,3 +1,4 @@
-# Standard Theme with name
+# 2026 Standard theme with name
 
-The author of this theme should write some documentation about what it's for.
+This theme was created from the default Numbas theme on 21 October 2026.
+Its only intended change is to display the student’s name in the question navigation.
